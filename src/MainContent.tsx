@@ -1,3 +1,5 @@
+import TechCardShowcase from "./TechCardShowcase";
+
 export default function MainContent() {
   return (
     <div
@@ -16,14 +18,7 @@ export default function MainContent() {
           reliable websites.
         </p>
       </div>
-      <div
-        className="
-          flex flex-row
-        "
-      >
-
-      </div>
-
+      <TechCardShowcase />
     </div>
   );
 }

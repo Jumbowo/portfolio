@@ -6,7 +6,7 @@ export default function Content() {
     <div
       className="
         flex flex-row justify-center
-        p-4 lg:px-40 pt-24
+        p-4 lg:px-40 pt-16
       "
     >
       <MainContent />

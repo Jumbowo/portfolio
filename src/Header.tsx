@@ -7,11 +7,12 @@ export default function Header() {
   return (
     <div
       className="
-        border-b border-zinc-500
+        border-b border-zinc-600
         flex flex-row justify-between
         p-3 lg:px-40
-        bg-zinc-950
-        sticky
+        backdrop-blur-[3px]
+        backdrop-brightness-[30%]
+        sticky top-0
       "
     >
       <TitleCard />

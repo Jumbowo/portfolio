@@ -5,8 +5,10 @@ export default function Content() {
   return (
     <div
       className="
+        self-center
         flex flex-row justify-center
-        p-4 lg:px-40 pt-16
+        lg:w-[66rem]
+        p-4 pt-32
       "
     >
       <MainContent />

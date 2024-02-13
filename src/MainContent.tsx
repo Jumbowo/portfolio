@@ -15,7 +15,7 @@ export default function MainContent() {
         <p>
           <br/>
           A full stack web developer with a passion for building clean and
-          reliable websites.
+          reliable websites. Insert more stuff here about me! Woof woof woof!
         </p>
       </div>
       <TechCardShowcase />

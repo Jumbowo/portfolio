@@ -1,5 +1,5 @@
-import Header from "./Header";
 import Content from "./Content";
+import HeaderBG from "./HeaderBG";
 
 export default function App() {
 
@@ -8,11 +8,10 @@ export default function App() {
       className="
         flex flex-col
         h-screen
-        bg-gradient-to-tl
       "
       id="mainApp"
     >
-      <Header />
+      <HeaderBG />
       <Content  />
     </div>
   )

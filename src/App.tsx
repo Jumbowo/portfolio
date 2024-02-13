@@ -1,7 +1,13 @@
+import { useState } from "react";
 import Content from "./Content";
 import HeaderBG from "./HeaderBG";
 
 export default function App() {
+  const [mousePos, setMousePos] = useState({ left: 0, top: 0 });
+
+  function handleMouseMove(event: any) {
+    setMousePos({ left: event.pageX, top: event.pageY });
+  }
 
   return (
     <div
@@ -10,6 +16,8 @@ export default function App() {
         h-screen
       "
       id="mainApp"
+      onMouseMove={(event) => handleMouseMove(event)}
+      style={{backgroundImage: `radial-gradient(36rem circle at ${mousePos.left}px ${mousePos.top}px, #27272a, #18181b)`}}
     >
       <HeaderBG />
       <Content  />

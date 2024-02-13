@@ -1,6 +1,7 @@
 import Header from "./Header";
 
 export default function HeaderBG() {
+
   return (
     <div
       className="

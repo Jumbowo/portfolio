@@ -1,6 +1,4 @@
 import { useState } from "react";
-import Content from "./Content";
-import HeaderBG from "./HeaderBG";
 
 export default function App() {
   const [mousePos, setMousePos] = useState({ left: 0, top: 0 });
@@ -21,8 +19,14 @@ export default function App() {
         backgroundImage: `radial-gradient(36rem circle at ${mousePos.left}px ${mousePos.top}px, #27272a, #18181b)`
       }}
     >
-      <HeaderBG />
-      <Content />
+      <p
+        className="
+          text-xl text-center max-w-3xl
+          m-auto pb-24
+        "
+      >
+        OOPSIE WOOPSIE!! Uwu We made a fucky wucky!! A wittle fucko boingo! The code monkeys at our headquarters are working VEWY HAWD to fix this!!!
+      </p>
     </div>
   )
 }

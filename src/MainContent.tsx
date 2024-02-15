@@ -5,8 +5,7 @@ export default function MainContent() {
     <div
       className="
         flex flex-col
-        grow
-        p-4
+        grow p-4
         text-2xl
       "
     >

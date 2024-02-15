@@ -22,7 +22,7 @@ export default function App() {
     <div
       className="
         flex flex-col
-        h-screen
+        min-h-screen
       "
       id="mainApp"
       onMouseMove={(event) => handleMouseMove(event)}

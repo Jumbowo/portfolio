@@ -8,14 +8,12 @@ export default function ContactContent() {
         text-2xl
       "
     >
-      <div>
-        <p className="text-3xl">Contact Me</p>
-        <p>
-          <br/>
-          A full stack web developer with a passion for building clean and
-          reliable websites. Insert more stuff here about me! Woof woof woof!
-        </p>
-      </div>
+      <p className="text-3xl">Contact Me</p>
+      <p>
+        <br/>
+        A full stack web developer with a passion for building clean and
+        reliable websites. Insert more stuff here about me! Woof woof woof!
+      </p>
     </div>
   );
 }

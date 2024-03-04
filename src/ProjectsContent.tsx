@@ -5,7 +5,8 @@ export default function ProjectContent() {
   const portfolio = {
     name: "Portfolio",
     info: "The site you're on right now! This website was made using React and styled with tailwindcss.", 
-    link: "https://github.com/jumbowo/portfolio",
+    link: "/",
+    sourceLink: "https://github.com/jumbowo/portfolio",
     img: placeholderImg,
   };
 
@@ -13,6 +14,7 @@ export default function ProjectContent() {
     name: "Google",
     info: "This is google.com, the search engine. It can do stuff like find things on the internet.", 
     link: "https://google.com",
+    sourceLink: "https://google.com",
     img: placeholderImg,
   };
 
@@ -31,10 +33,7 @@ export default function ProjectContent() {
         Check out some of the projects I've worked on below. They cover a wide range of skills and technologies.
         This list is constantly being updated!
       </p>
-      <div className="
-          pt-4 flex flex-col gap-4
-        "
-      >
+      <div className="pt-8 flex flex-col gap-4" >
         <ProjectCard project={portfolio} />
         <ProjectCard project={testProj} />
       </div>

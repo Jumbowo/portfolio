@@ -4,7 +4,7 @@ import placeholderImg from "./assets/placeholderImg.png";
 export default function ProjectContent() {
   const portfolio = {
     name: "Portfolio",
-    info: "The site you're on right now! This website was made using React and styled with tailwindcss.", 
+    info: "The site you're on right now! This website was made using React and styled with Tailwind CSS.", 
     link: "/",
     sourceLink: "https://github.com/jumbowo/portfolio",
     img: placeholderImg,

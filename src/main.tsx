@@ -7,6 +7,7 @@ import ErrorPage from './ErrorPage.tsx';
 import ProjectsContent from './ProjectsContent.tsx';
 import ContactContent from './ContactContent.tsx';
 import MainContent from './MainContent.tsx';
+import TestContent from './TestContent.tsx';
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
         element: <MainContent />
       },
       {
-        path: "/Home",
+        path: "home",
         element: <MainContent />
       },
       {

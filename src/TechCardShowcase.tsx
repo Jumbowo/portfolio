@@ -10,20 +10,13 @@ export default function TechCardShowcase() {
         text-center
       "
     >
-      <TechCard name="Typescript">
-      </TechCard>
-      <TechCard name="React">
-      </TechCard>
-      <TechCard name="Python">
-      </TechCard>
-      <TechCard name="Node">
-      </TechCard>
-      <TechCard name="Node">
-      </TechCard>
-      <TechCard name="Node">
-      </TechCard>
-      <TechCard name="Node">
-      </TechCard>
+      <TechCard name="Typescript" />
+      <TechCard name="React" />
+      <TechCard name="Python" />
+      <TechCard name="Node" />
+      <TechCard name="Node" />
+      <TechCard name="Node" />
+      <TechCard name="Node" />
     </div>
   );
 }

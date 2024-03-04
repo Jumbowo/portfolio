@@ -7,7 +7,7 @@ export default function NavItem({ name }: { name: string }) {
     <div
       className="
         text-2xl text-center
-        transition ease-in-out delay-0 hover:text-zinc-300
+        transition ease-in-out delay-0 hover:scale-110 duration-200
       "
     >
       <Link to={route}>{name}</Link>

@@ -7,6 +7,7 @@ import ErrorPage from './ErrorPage.tsx';
 import ProjectsContent from './ProjectsContent.tsx';
 import ContactContent from './ContactContent.tsx';
 import MainContent from './MainContent.tsx';
+import DotfilesContent from './DotfilesContent.tsx';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <ContactContent />
+      },
+      {
+        path: "dotfiles",
+        element: <DotfilesContent />
       },
     ]
   },

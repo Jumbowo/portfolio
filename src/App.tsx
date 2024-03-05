@@ -20,10 +20,7 @@ export default function App() {
 
   return (
     <div
-      className="
-        flex flex-col
-        min-h-screen
-      "
+      className="flex flex-col min-h-screen"
       id="mainApp"
       onMouseMove={(event) => handleMouseMove(event)}
       style={{

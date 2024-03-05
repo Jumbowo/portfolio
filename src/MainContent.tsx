@@ -2,13 +2,7 @@ import TechCardShowcase from "./TechCardShowcase";
 
 export default function MainContent() {
   return (
-    <div
-      className="
-      flex flex-col
-      grow p-4
-      text-2xl
-      "
-    >
+    <div className="flex flex-col grow p-4 text-2xl">
       <p className="text-3xl">Hi, I'm <strong>Bryan</strong>.</p>
       <p>
         <br/>

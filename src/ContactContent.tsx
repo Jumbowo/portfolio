@@ -1,13 +1,6 @@
 export default function ContactContent() {
   return (
-    <div
-      className="
-        flex flex-col
-        grow
-        p-4
-        text-2xl
-      "
-    >
+    <div className="flex flex-col grow p-4 text-2xl">
       <p className="text-3xl"><strong>Contact Me</strong></p>
       <br/>
       <p>

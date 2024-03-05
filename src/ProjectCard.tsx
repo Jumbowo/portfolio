@@ -20,7 +20,7 @@ export default function ProjectCard({ project }: {
     >
       <div className="flex flex-col gap-4" >
         <h1 className="flex flex-row gap-1">
-          <a href={project.link} target="blank"><strong>{project.name}</strong></a>
+          <a className="text-2xl" href={project.link} target="blank"><strong>{project.name}</strong></a>
           <img className="w-4 invert-[.50] translate-y-0.5" src={externalLink}/>
         </h1>
         <p>{project.info}</p>

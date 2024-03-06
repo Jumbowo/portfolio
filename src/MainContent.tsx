@@ -8,7 +8,7 @@ export default function MainContent() {
         animate-[fadeIn_0.4s_ease-in-out_1]
       "
     >
-      <p className="text-3xl"><h1>Hi, I'm <strong>Bryan</strong>.</h1></p>
+      <h1 className="text-3xl">Hi, I'm <strong>Bryan</strong>.</h1>
       <p>
         <br/>
         A full stack web developer with a passion for building clean and

@@ -6,7 +6,7 @@ export default function ContactContent() {
         animate-[fadeIn_0.4s_ease-in-out_1]
       "
     >
-      <p className="text-3xl"><h1><strong>Contact Me</strong></h1></p>
+      <h1 className="text-3xl"><strong>Contact Me</strong></h1>
       <br/>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus,

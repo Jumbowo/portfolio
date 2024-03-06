@@ -1,15 +1,17 @@
 import ProjectCard from "./ProjectCard";
 import placeholderImg from "./assets/placeholderImg.png";
+import reactLogo from "./assets/react.svg";
+import tailwindLogo from "./assets/tailwind.svg";
 
 export default function ProjectContent() {
   const projects = [
     {
       name: "Portfolio",
-      info: "The site you're on right now. Clean and minimal as to not waste your time. " +
-            "This site was made using React and styled with Tailwind CSS.",
+      info: "The site you're on right now. Clean and minimal as to not waste your time.",
       link: "/",
       sourceLink: "https://github.com/jumbowo/portfolio",
       img: placeholderImg,
+      technologies: [reactLogo, tailwindLogo],
     },
     {
       name: "Google",
@@ -17,6 +19,7 @@ export default function ProjectContent() {
       link: "https://google.com",
       sourceLink: "https://google.com",
       img: placeholderImg,
+      technologies: [reactLogo],
     },
     {
       name: "Woof",
@@ -24,6 +27,7 @@ export default function ProjectContent() {
       link: "https://google.com",
       sourceLink: "https://google.com",
       img: placeholderImg,
+      technologies: [reactLogo],
     },
   ];
 
@@ -34,7 +38,7 @@ export default function ProjectContent() {
         animate-[fadeIn_0.4s_ease-in-out_1]
       "
     >
-      <p className="text-3xl"><h1><strong>Projects</strong></h1></p>
+      <h1 className="text-3xl"><strong>Projects</strong></h1>
       <p>
         <br/>
         Check out some of the projects I've worked on below.

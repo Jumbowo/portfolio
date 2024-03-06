@@ -21,10 +21,13 @@ export default function ProjectCard({ project }: {
     >
       <div className="flex flex-col gap-4">
         <div className="flex flex-row justify-between">
-          <h1 className="flex flex-row gap-1">
-            <a className="text-2xl" href={project.link} target="blank"><h2><strong>{project.name}</strong></h2></a>
+          <a
+            className="flex flex-row gap-1 text-2xl"
+            href={project.link}
+            target="blank">
+            <h2><strong>{project.name}</strong></h2>
             <img className="w-4 invert-[.50] translate-y-0.5" src={externalLink}/>
-          </h1>
+          </a>
           <div className="flex flex-row gap-2 pr-3 scale-125">
             {project.technologies.map((tech: string) => {
               return <img className="w-6" src={tech} alt={tech + " logo"} key={tech}/>
@@ -32,11 +35,11 @@ export default function ProjectCard({ project }: {
           </div>
         </div>
         <p>{project.info}</p>
-        <a 
-          className="text-blue-400 visited:text-violet-600 flex flex-row gap-1"
+        <a
+          className="flex flex-row gap-1 text-blue-400 visited:text-violet-600"
           href={project.sourceLink}
           target="blank">
-          <p>Check out the source code here!</p>
+          Check out the source code here!
           <img className="w-4 invert-[.50] translate-y-0.5" src={externalLink}/>
         </a>
       </div>

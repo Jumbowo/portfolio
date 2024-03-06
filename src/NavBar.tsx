@@ -12,6 +12,6 @@ export default function NavBar() {
       <NavItem name="Home" />
       <NavItem name="Projects" />
       <NavItem name="Contact" />
-    </nav>    
+    </nav>
   )
 }

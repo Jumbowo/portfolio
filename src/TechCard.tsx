@@ -1,6 +1,6 @@
 export default function TechCard({ name }: { name: string }) {
   return (
-    <div
+    <article
       className="
         border border-zinc-600 hover:border-zinc-400
         bg-zinc-800 p-4 max-h-96 text-xl
@@ -8,7 +8,7 @@ export default function TechCard({ name }: { name: string }) {
         shadow-sm shadow-zinc-700
       "
     >
-      <h1>{name}</h1>
-    </div>
+      <h2>{name}</h2>
+    </article>
   );
 }

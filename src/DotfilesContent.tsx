@@ -1,7 +1,12 @@
 export default function DotfilesContent() {
   return (
-    <div className="flex flex-col grow p-4 text-2xl">
-      <p className="text-3xl"><strong>Dotfiles</strong></p>
+    <section
+      className="
+        flex flex-col grow p-4 text-2xl
+        animate-[fadeIn_0.4s_ease-in-out_1]
+      "
+    >
+      <p className="text-3xl"><h1><strong>Dotfiles</strong></h1></p>
       <br/>
       <p className="pb-8">
         Dotfiles and stuff
@@ -16,6 +21,6 @@ export default function DotfilesContent() {
       >
 
       </div>
-    </div>
+    </section>
   );
 }

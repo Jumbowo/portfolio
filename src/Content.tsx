@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 export default function Content() {
   return (
-    <div
+    <main
       className="
         self-center
         flex flex-row justify-center
@@ -11,6 +11,6 @@ export default function Content() {
       "
     >
       <Outlet />
-    </div>
+    </main>
   );
 }

@@ -1,7 +1,12 @@
 export default function ContactContent() {
   return (
-    <div className="flex flex-col grow p-4 text-2xl">
-      <p className="text-3xl"><strong>Contact Me</strong></p>
+    <section
+      className="
+        flex flex-col grow p-4 text-2xl
+        animate-[fadeIn_0.4s_ease-in-out_1]
+      "
+    >
+      <p className="text-3xl"><h1><strong>Contact Me</strong></h1></p>
       <br/>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus,
@@ -9,6 +14,6 @@ export default function ContactContent() {
         quod recusandae illo blanditiis officiis nam cumque id iure! Qui
         reiciendis saepe sed.
       </p>
-    </div>
+    </section>
   );
 }

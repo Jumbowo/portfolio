@@ -10,7 +10,7 @@ export default function ProjectCard({ project }: {
   }
 }) {
   return (
-    <div
+    <article
       className="
         border border-zinc-600 hover:border-zinc-400
         bg-zinc-800 p-4 text-xl
@@ -20,7 +20,7 @@ export default function ProjectCard({ project }: {
     >
       <div className="flex flex-col gap-4" >
         <h1 className="flex flex-row gap-1">
-          <a className="text-2xl" href={project.link} target="blank"><strong>{project.name}</strong></a>
+          <a className="text-2xl" href={project.link} target="blank"><h2><strong>{project.name}</strong></h2></a>
           <img className="w-4 invert-[.50] translate-y-0.5" src={externalLink}/>
         </h1>
         <p>{project.info}</p>
@@ -35,6 +35,6 @@ export default function ProjectCard({ project }: {
       <a className="md:max-w-[50%] max-w-100% self-center" href={project.img} target="blank">
         <img src={project.img} alt={"A screenshot from my project: " + project.name} />
       </a>
-    </div>
+    </article>
   );
 }

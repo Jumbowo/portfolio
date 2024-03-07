@@ -6,7 +6,7 @@ export default function DotfilesContent() {
         animate-[fadeIn_0.4s_ease-in-out_1]
       "
     >
-      <h1 className="text-3xl"><strong>Dotfiles</strong></h1>
+      <h1 className="text-3xl">Dotfiles</h1>
       <br/>
       <p className="pb-8">
         This page is for showcasing my developer workflow along with the tools I use.

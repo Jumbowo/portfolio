@@ -22,6 +22,14 @@ export default function ProjectContent() {
       img: placeholderImg,
       technologies: [["React", reactLogo], ["TailwindCSS", tailwindLogo]],
     },
+    {
+      name: "Blep",
+      info: "Blep blep blep blep blep blep blep blep blep blep blep blep blep blep",
+      link: "/",
+      sourceLink: "https://github.com/jumbowo/portfolio",
+      img: placeholderImg,
+      technologies: [["React", reactLogo], ["TailwindCSS", tailwindLogo]],
+    },
   ];
 
   return (
@@ -31,7 +39,7 @@ export default function ProjectContent() {
         animate-[fadeIn_0.4s_ease-in-out_1]
       "
     >
-      <h1 className="text-3xl"><strong>Projects</strong></h1>
+      <h1 className="text-3xl">Projects</h1>
       <p>
         <br/>
         Check out some of the projects I've worked on below.

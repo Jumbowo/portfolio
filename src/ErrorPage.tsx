@@ -18,7 +18,7 @@ export default function App() {
       <p className="text-xl text-center max-w-3xl m-auto pb-24">
         OOPSIE WOOPSIE!! Uwu We made a fucky wucky!! A wittle fucko boingo!
         The code monkeys at our headquarters are working VEWY HAWD to fix this!!!<br/><br/>
-        <Link className="text-xl text-center max-w-3xl m-auto pb-24" to="/"><strong>Back</strong></Link>
+        <Link className="font-bold text-xl text-center max-w-3xl m-auto pb-24" to="/">Back</Link>
       </p>
     </div>
   )

@@ -25,12 +25,12 @@ export default function ProjectCard({ project }: {
             className="flex flex-row gap-1 text-2xl"
             href={project.link}
             target="blank">
-            <h2><strong>{project.name}</strong></h2>
-            <img className="w-4 invert-[.50] translate-y-0.5" src={externalLink}/>
+            <h2>{project.name}</h2>
+            <img className="w-4 invert-[.50] translate-y-0.5" src={externalLink} />
           </a>
           <div className="flex flex-row gap-2 pr-3 scale-125">
             {project.technologies.map((tech: string[]) => {
-              return <img className="w-6" src={tech[1]} title={tech[0]} alt={tech[0]} key={tech[1]}/>
+              return <img className="w-6" src={tech[1]} title={tech[0]} alt={tech[0] + " logo"} key={tech[1]} />
             })}
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function ProjectCard({ project }: {
           href={project.sourceLink}
           target="blank">
           Check out the source code here!
-          <img className="w-4 invert-[.50] translate-y-0.5" src={externalLink}/>
+          <img className="w-4 invert-[.50] translate-y-0.5" src={externalLink} />
         </a>
       </div>
       <a className="md:max-w-[50%] max-w-100% self-center" href={project.img} target="blank">

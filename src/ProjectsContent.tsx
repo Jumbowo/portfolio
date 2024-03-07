@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import placeholderImg from "./assets/placeholderImg.png";
 import reactLogo from "./assets/react.svg";
 import tailwindLogo from "./assets/tailwind.svg";
+import typescriptLogo from "./assets/typescript.svg";
 
 export default function ProjectContent() {
   const projects = [
@@ -11,23 +12,15 @@ export default function ProjectContent() {
       link: "/",
       sourceLink: "https://github.com/jumbowo/portfolio",
       img: placeholderImg,
-      technologies: [reactLogo, tailwindLogo],
+      technologies: [["Typescript", typescriptLogo], ["React", reactLogo], ["TailwindCSS", tailwindLogo]],
     },
     {
-      name: "Google",
-      info: "This is google.com, the search engine. It can do stuff like find things on the internet.", 
-      link: "https://google.com",
-      sourceLink: "https://google.com",
+      name: "Blep",
+      info: "Blep blep blep blep blep blep blep blep blep blep blep blep blep blep",
+      link: "/",
+      sourceLink: "https://github.com/jumbowo/portfolio",
       img: placeholderImg,
-      technologies: [reactLogo],
-    },
-    {
-      name: "Woof",
-      info: "Woof woof woof woof woof woof woof woof woof woof woof woof woof woof woof woof woof", 
-      link: "https://google.com",
-      sourceLink: "https://google.com",
-      img: placeholderImg,
-      technologies: [reactLogo],
+      technologies: [["React", reactLogo], ["TailwindCSS", tailwindLogo]],
     },
   ];
 

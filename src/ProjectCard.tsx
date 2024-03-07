@@ -7,7 +7,7 @@ export default function ProjectCard({ project }: {
     link: string,
     sourceLink: string,
     img: string,
-    technologies: string[],
+    technologies: string[][], // [[tech name, tech logo]]
   }
 }) {
   return (
@@ -29,8 +29,8 @@ export default function ProjectCard({ project }: {
             <img className="w-4 invert-[.50] translate-y-0.5" src={externalLink}/>
           </a>
           <div className="flex flex-row gap-2 pr-3 scale-125">
-            {project.technologies.map((tech: string) => {
-              return <img className="w-6" src={tech} alt={tech + " logo"} key={tech}/>
+            {project.technologies.map((tech: string[]) => {
+              return <img className="w-6" src={tech[1]} title={tech[0]} alt={tech[0]} key={tech[1]}/>
             })}
           </div>
         </div>

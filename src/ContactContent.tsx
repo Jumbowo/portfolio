@@ -8,12 +8,7 @@ export default function ContactContent() {
     >
       <h1 className="text-3xl">Contact Me</h1>
       <br/>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus,
-        quidem dignissimos deserunt, odit voluptatum fugit tempore mollitia,
-        quod recusandae illo blanditiis officiis nam cumque id iure! Qui
-        reiciendis saepe sed.
-      </p>
+      <p>123</p>
     </section>
   );
 }

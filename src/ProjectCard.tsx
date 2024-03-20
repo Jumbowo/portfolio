@@ -24,7 +24,8 @@ export default function ProjectCard({ project }: {
           <a
             className="flex flex-row gap-1 text-2xl"
             href={project.link}
-            target="blank">
+            target="blank"
+          >
             <h2>{project.name}</h2>
             <img className="w-4 invert-[.50] translate-y-0.5" src={externalLink} />
           </a>

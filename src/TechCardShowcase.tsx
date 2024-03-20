@@ -10,7 +10,6 @@ export default function TechCardShowcase() {
     >
       <TechCard name="Typescript" />
       <TechCard name="React" />
-      <TechCard name="Python" />
       <TechCard name="Node" />
       <TechCard name="Woof" />
       <TechCard name="Mlem" />

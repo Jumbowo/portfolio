@@ -1,8 +1,9 @@
 import ProjectCard from "./ProjectCard";
-import placeholderImg from "./assets/placeholderImg.png";
 import reactLogo from "./assets/react.svg";
 import tailwindLogo from "./assets/tailwind.svg";
 import typescriptLogo from "./assets/typescript.svg";
+import portfolioImg from "./assets/portfolio.png";
+import pokedexImg from "./assets/pokedex.png";
 
 export default function ProjectContent() {
   const projects = [
@@ -11,24 +12,16 @@ export default function ProjectContent() {
       info: "The site you're on right now. Clean and minimal as to not waste your time.",
       link: "/",
       sourceLink: "https://github.com/jumbowo/portfolio",
-      img: placeholderImg,
+      img: portfolioImg,
       technologies: [["Typescript", typescriptLogo], ["React", reactLogo], ["TailwindCSS", tailwindLogo]],
     },
     {
-      name: "Blep",
-      info: "Blep blep blep blep blep blep blep blep blep blep blep blep blep blep",
+      name: "Pokedex",
+      info: "Search any pokemon and retrieve information about stats, evolutions, weaknesses, and more. Features fully functional dark mode and fuzzy search. Powered by Pokeapi.",
       link: "/",
-      sourceLink: "https://github.com/jumbowo/portfolio",
-      img: placeholderImg,
-      technologies: [["React", reactLogo], ["TailwindCSS", tailwindLogo]],
-    },
-    {
-      name: "Blep",
-      info: "Blep blep blep blep blep blep blep blep blep blep blep blep blep blep",
-      link: "/",
-      sourceLink: "https://github.com/jumbowo/portfolio",
-      img: placeholderImg,
-      technologies: [["React", reactLogo], ["TailwindCSS", tailwindLogo]],
+      sourceLink: "https://github.com/jumbowo/pokedex",
+      img: pokedexImg,
+      technologies: [["Typescript", typescriptLogo], ["React", reactLogo], ["TailwindCSS", tailwindLogo]],
     },
   ];
 
@@ -46,7 +39,7 @@ export default function ProjectContent() {
         They cover a wide range of skills and technologies.
         This list is constantly being updated.
       </p>
-      <div className="pt-8 flex flex-col gap-4" >
+      <div className="pt-8 flex flex-col gap-4">
         {projects.map((project) => <ProjectCard key={project.name} project={project} />)}
       </div>
     </section>

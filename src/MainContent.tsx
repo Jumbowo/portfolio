@@ -20,13 +20,9 @@ export default function MainContent() {
           reliable websites. 
           </span>
         </p>
-        <br/>
-        <h2>About Me</h2>
         <p>
           <br/>
-          <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, aspernatur corporis. Rerum, vero asperiores reprehenderit tenetur omnis rem blanditiis consequuntur tempora minus nihil quaerat explicabo delectus? Totam dolorum quos error.
-          </span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, aspernatur corporis. Rerum, vero asperiores reprehenderit tenetur omnis rem blanditiis consequuntur tempora minus nihil quaerat explicabo delectus? Totam dolorum quos error.
         </p>
         <br/>
       </section>

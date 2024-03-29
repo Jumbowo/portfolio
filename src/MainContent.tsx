@@ -11,9 +11,13 @@ export default function MainContent() {
       <h1 className="font-normal text-3xl">Hi, I'm <strong>Bryan.</strong></h1>
       <p>
         <br/>
+        <span>
         A full stack web developer with a passion for building clean and
-        reliable websites. Insert more stuff here about me! Woof woof woof!
+        reliable websites. 
+        </span>
       </p>
+      <br/>
+      <h2>About Me</h2>
       <TechCardShowcase />
     </section>
   );

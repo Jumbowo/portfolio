@@ -27,12 +27,10 @@ export default function ProjectContent() {
 
   return (
     <section 
-      className="
-        flex flex-col grow p-4 text-2xl
-        animate-[fadeIn_0.4s_ease-in-out_1]
-      "
+      className="flex flex-col grow p-4 text-2xl"
     >
-      <h1 className="text-3xl">Projects</h1>
+      <a className="invisible relative block top-[-8rem]" id="Projects" />
+      <h2 className="text-center text-7xl font-thin py-6">Projects</h2>
       <p>
         <br/>
         Check out some of the projects I've worked on below.

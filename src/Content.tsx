@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import MainContent from "./MainContent";
 
 export default function Content() {
   return (
@@ -10,7 +10,7 @@ export default function Content() {
         p-4 md:pt-32 pt-40
       "
     >
-      <Outlet />
+      <MainContent />
     </main>
   );
 }

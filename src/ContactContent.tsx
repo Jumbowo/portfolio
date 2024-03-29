@@ -5,8 +5,10 @@ export default function ContactContent() {
         flex flex-col grow p-4 text-2xl
         animate-[fadeIn_0.4s_ease-in-out_1]
       "
+      id="Contact"
     >
-      <h1 className="text-3xl">Contact Me</h1>
+      <a className="invisible relative block top-[-8rem]" id="Contact" />
+      <h2 className="text-center text-7xl font-thin py-6">Contact</h2>
       <br/>
       <p>123</p>
     </section>

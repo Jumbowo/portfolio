@@ -8,7 +8,7 @@ export default function NavBarNarrow() {
         flex flex-row justify-evenly lg:gap-8 gap-2
       "
     >    
-      <NavItem name="Home" />
+      <NavItem name="About" />
       <NavItem name="Projects" />
       <NavItem name="Contact" />
     </nav>

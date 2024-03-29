@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 export default function App() {
   const [mousePos, setMousePos] = useState({ left: 0, top: 0 });
@@ -18,7 +17,7 @@ export default function App() {
       <p className="text-xl text-center max-w-3xl m-auto pb-24">
         OOPSIE WOOPSIE!! Uwu We made a fucky wucky!! A wittle fucko boingo!
         The code monkeys at our headquarters are working VEWY HAWD to fix this!!!<br/><br/>
-        <Link className="font-bold text-xl text-center max-w-3xl m-auto pb-24" to="/">Back</Link>
+        <a className="font-bold text-xl text-center max-w-3xl m-auto pb-24">Back</a>
       </p>
     </div>
   )

@@ -9,7 +9,7 @@ export default function NavBar() {
         basis-56 self-center
       "
     >    
-      <NavItem name="Home" />
+      <NavItem name="About" />
       <NavItem name="Projects" />
       <NavItem name="Contact" />
     </nav>

@@ -1,19 +1,17 @@
 import TechCard from "./TechCard";
 
-export default function TechCardShowcase() {
+export default function TechCardShowcase({ technologies, title }: { technologies: string[], title: string }) {
   return (
-    <section
-      className="
-        grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2
-        xl:gap-4 lg:gap-3 gap-2 pt-8 text-center
-      "
-    >
-      <TechCard name="Typescript" />
-      <TechCard name="React" />
-      <TechCard name="Node" />
-      <TechCard name="Woof" />
-      <TechCard name="Mlem" />
-      <TechCard name="Blep" />
-    </section>
+    <>
+      <h4 className="text-zinc-100 text-3xl">{title}</h4>
+      <section
+        className="
+          flex flex-row flex-wrap grow
+          gap-2 py-8 text-center 
+        "
+      >
+        {technologies.map((technology) => <TechCard key={technology} name={technology} />)}
+      </section>
+    </>
   );
 }

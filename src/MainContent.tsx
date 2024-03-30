@@ -1,6 +1,7 @@
 import ProjectContent from "./ProjectsContent";
 import SkillsContent from "./SkillsContent";
 import ContactContent from "./ContactContent";
+import upArrow from "./assets/upArrow.svg";
 
 export default function MainContent() {
   return (
@@ -29,6 +30,10 @@ export default function MainContent() {
       <SkillsContent />
       <ProjectContent />
       <ContactContent />
+      <a href="#About" className="flex flex-row gap-1 text-2xl text-center pt-4 pb-6 justify-center">
+        <span>Back to top</span>
+        <img className="animate-bounce w-8 invert" src={upArrow} />
+      </a>
     </div>
   );
 }

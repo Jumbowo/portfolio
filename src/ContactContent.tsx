@@ -12,8 +12,8 @@ export default function ContactContent() {
       <br/>
       <div className="flex flex-row flex-wrap justify-evenly pb-24 font-thin text-4xl text-center">
         <a className="min-w-36 py-2" href="mailto:Bryan.Yang255@gmail.com">Email</a>
-        <a className="min-w-36 py-2" href="https://github.com/Jumbowo" target="_blank">Github</a>
-        <a className="min-w-36 py-2" href="" target="_blank">LinkedIn</a>
+        <a className="min-w-36 py-2" href="https://github.com/Jumbowo" target="_blank">GitHub</a>
+        <a className="min-w-36 py-2" href="https://linkedin.com/in/BryanY255" target="_blank">LinkedIn</a>
         <a className="min-w-36 py-2">Resume</a>
       </div>
     </section>
